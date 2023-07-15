@@ -1,3 +1,5 @@
+LABEL AUTHOR="Zerohertz"
+
 FROM tiangolo/uvicorn-gunicorn:python3.8
 
 RUN mkdir -p /app

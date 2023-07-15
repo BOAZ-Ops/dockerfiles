@@ -1,3 +1,5 @@
+LABEL AUTHOR="Zerohertz"
+
 FROM nvcr.io/nvidia/tritonserver:23.06-py3
 
 RUN pip config set global.extra-index-url https://pip.repos.neuron.amazonaws.com
